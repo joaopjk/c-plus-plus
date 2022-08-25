@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World" << std::endl;
+}
+
+Declaring and initializing Variables
+Naming Variables:
+- Can contain letters, number, and underscores
+- Must begin with a letter or underscore
+  - can't begin with a number
+- Can't use C++ reserved keywords
+- Can't redeclare a name in the same scope
+  - remember, that c++ is case sensitive
+
+int age;
+int age = 21 ;
+int age (21);
+int age {21}: C++11 list initialization syntax
+
+Avoid to use global Variables
