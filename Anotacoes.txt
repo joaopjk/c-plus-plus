@@ -20,3 +20,4 @@ int age (21);
 int age {21}: C++11 list initialization syntax
 
 Avoid to use global Variables
+Don't use defined constants in Modern C++
