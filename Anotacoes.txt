@@ -21,3 +21,6 @@ int age {21}: C++11 list initialization syntax
 
 Avoid to use global Variables
 Don't use defined constants in Modern C++
+
+Be careful to use double with application if these application need exacle point number precision.
+11.999 not equal 12, use specifics library to do that.
