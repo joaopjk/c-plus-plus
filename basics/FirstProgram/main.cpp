@@ -2,9 +2,13 @@
 
 int main()
 {
-    constexpr int value = get_value();
-    // std::cout << "value : " << value << std::endl;
+    /*
+        Comentários
+    */
     std::cout << "Hello World" << std::endl;
+    std::cout << "Number1" << std::endl;
+    std::cout << "Number2" << std::endl;
+    std::cout << "Number3" << std::endl;
 
     return 0;
 }
