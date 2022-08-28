@@ -2,3 +2,12 @@ std::count printing data to the console
 std::cin reading data from de console
 std::cerr printing erros to the console
 std::clog print log messagens to the console
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  return 0;
+}
