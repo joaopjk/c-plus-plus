@@ -26,5 +26,10 @@ int main()
   std::cout << "Var7 ocupies: " << sizeof(var7) << std::endl;
   std::cout << "Var8 ocupies: " << sizeof(var8) << std::endl;
 
+  // Careful about auto assigments
+  auto var9{333u};                                 // unsigned type (only positive numbers)
+  var9 = -22;                                      // assign negative number. DANGER
+  std::cout << "Var9 values" << var9 << std::endl; // trash memory
+
   return 0;
 }
