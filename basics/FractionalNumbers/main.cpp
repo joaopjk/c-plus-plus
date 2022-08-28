@@ -23,7 +23,7 @@ int main()
   std::cout << number3 << std::endl;
 
   // Problem not caught at compile time (false)
-  // float number4{192400023};
+  // float number4{192400023}; Error: narrowing conversion
   // number4 += 1;
   // std::cout << "number 4 is:" << number4 << std::endl;
 
