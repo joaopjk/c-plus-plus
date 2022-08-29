@@ -15,5 +15,8 @@ int main()
   cout << (number1 == number2) << endl;
   cout << (number1 != number2) << endl;
 
+  bool result = (number1 == number2);
+  cout << result << endl;
+
   return 0;
 }
