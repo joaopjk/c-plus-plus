@@ -20,8 +20,8 @@ int main()
             << std::endl;
 
   /*
-  Shifting right divides by 2>n
-  Shifting left multiplies by 2>n
+  Shifting right divides by 2^n
+  Shifting left multiplies by 2^n
   This rule breaks if you throw off 1's either to the right or the left
   */
 
