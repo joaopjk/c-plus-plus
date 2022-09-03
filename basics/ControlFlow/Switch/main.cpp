@@ -25,6 +25,7 @@ int main()
   {
     std::cout << "Active tool is rectangle" << std::endl;
   }
+  case Ellipse:
   case Circle:
   {
     std::cout << "Active tool is circle" << std::endl;
